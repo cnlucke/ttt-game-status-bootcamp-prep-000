@@ -58,6 +58,6 @@ end
 def winner(board)
   win = won?(board)
   if(win != false)
-    return win[0]
+    return board[win[0]]
   end
 end
